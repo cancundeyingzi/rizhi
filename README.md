@@ -1,5 +1,19 @@
+# 2026.1.7
+## md转网页
+vscode 搜索 `markdown-preview-enhanced`
+设置，搜索`markdown-preview-enhanced.enableScriptExecution`，开启
+md文档最上面第一行顶格写
+```
+---
+html:
+  embed_local_images: false
+  embed_svg: true
+  offline: true
+  toc: true
 
-
+print_background: true
+---
+```
 # 2023.11.6
 ## 一些linux脚本命令
 #### rustdesk远程桌面自建服务器     输入,回车,一路yes,全部安装,dns,输入域名,然后完成后直接在手机上中继服务器输入域名,无需端口就能用,别的都不用搞    
